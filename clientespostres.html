@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base de Datos Postres</title>
+    <link rel="stylesheet" href="clientespostres.css">
+</head>
+<body>
+    
+    <form id="form">
+
+        <h1>Base de Datos Clientes</h1>
+
+        <img src="imagenes/logo.png" class="logo"> <br><br>
+        
+        <div class="contenedor">
+        <label>Nombre</label>
+        <input id="nombre"/>
+        
+        <label>Telefono</label>
+        <input id="telefono"/>
+        
+        <label>Direccion</label>
+        <input id="direccion"/>
+        <br><br>
+        
+        <button id="enviar">Enviar</button>
+
+
+        </div>
+        </form>
+        
+        <hr>
+        
+        <div>
+        <h2>Lista de Clientes</h2>
+
+        <table id="lista"></table>
+
+        </div>
+        <script src="https://momentjs.com/downloads/moment.min.js"></script>
+        <script src="clientespostres.js"></script>
+
+</body>
+</html>

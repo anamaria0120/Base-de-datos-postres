@@ -1,0 +1,23 @@
+*{
+    background-color: antiquewhite;
+}
+
+.logo{
+width: 17%;
+margin-left: 568px;
+}
+
+h1{
+text-align: center;
+color: #804000;
+}
+
+h2{
+    text-align: center;
+    color: #804000;
+    font-size: 30px; 
+}
+
+.contenedor{
+    text-align: center;
+}
